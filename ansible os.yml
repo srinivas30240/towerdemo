@@ -2,6 +2,6 @@
  - hosts: all
    gather_facts: no
    tasks:
-   - name: gather os disturb
-     debug:
-       msg: "{{ansible_distribution}}"
+    - name: gather os distro info
+      debug:
+        msg: "{{ansible_distribution}}"
