@@ -2,6 +2,6 @@
  - hosts: all
    gather_facts: no
    tasks:
-    - name: gather osdisturb
-      debug:
-        msg: "{{ansible_distribution}}"
+   - name: gather osdisturb
+     debug:
+       msg: "{{ansible_distribution}}"
